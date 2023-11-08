@@ -12,7 +12,7 @@ namespace Metotlar
         //syntax
         public void Ekle()
         {
-            Console.WriteLine("Sepete eklendi");
+            Console.WriteLine("Tebrikler. Sepete eklendi!");
         }
     }
 }

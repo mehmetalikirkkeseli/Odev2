@@ -32,7 +32,7 @@
             }
 
             Console.WriteLine("------------Metotlar---------------");
-
+            //instance - örnek
             SepetManager sepetManager = new SepetManager();
             sepetManager.Ekle();
             sepetManager.Ekle();
