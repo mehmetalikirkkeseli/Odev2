@@ -34,11 +34,8 @@
             Console.WriteLine("------------Metotlar---------------");
             //instance - örnek
             SepetManager sepetManager = new SepetManager();
-            sepetManager.Ekle();
-            sepetManager.Ekle();
-            sepetManager.Ekle();
-            sepetManager.Ekle();
-            sepetManager.Ekle();
+            sepetManager.Ekle(urun1);
+            sepetManager.Ekle(urun2);
         }
     }
 }
