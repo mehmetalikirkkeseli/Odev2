@@ -8,6 +8,11 @@ namespace Metotlar
 {
     class SepetManager
     {
-
+        //naming convention
+        //syntax
+        public void Ekle()
+        {
+            Console.WriteLine("Sepete eklendi");
+        }
     }
 }
