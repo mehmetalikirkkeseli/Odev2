@@ -30,6 +30,15 @@
                 Console.WriteLine(urun.Aciklama);
                 Console.WriteLine("-----------------");
             }
+
+            Console.WriteLine("------------Metotlar---------------");
+
+            SepetManager sepetManager = new SepetManager();
+            sepetManager.Ekle();
+            sepetManager.Ekle();
+            sepetManager.Ekle();
+            sepetManager.Ekle();
+            sepetManager.Ekle();
         }
     }
 }
