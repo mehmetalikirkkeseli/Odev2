@@ -8,7 +8,8 @@ namespace OOP1
 {
     class ProductManager
     {
-        public void Add()
+        //encapsulation
+        public void Add(Product product)
         {
 
         }

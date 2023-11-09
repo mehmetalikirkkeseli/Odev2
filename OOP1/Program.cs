@@ -16,7 +16,7 @@
             //PascalCase   //camelCase
             //case sensitive
             ProductManager productManager = new ProductManager();
-            string isim;
+            productManager.Add(product1);
         }
     }
 }
