@@ -21,6 +21,9 @@
 
             productManager.Topla2(3, 6);
 
+            int toplamaSonucu = productManager.Topla(3, 6);
+            Console.WriteLine(toplamaSonucu * 2);
+
             //int,double,bool... -> değer tip
             //diziler,class,abstract class,interface... -> referans tip
         }
