@@ -9,6 +9,8 @@
             Console.WriteLine(isimler[1]);
             Console.WriteLine(isimler[2]);
             Console.WriteLine(isimler[3]);
+            isimler[4] = "İlker";
+            Console.WriteLine(isimler[4]);
 
         }
     }
