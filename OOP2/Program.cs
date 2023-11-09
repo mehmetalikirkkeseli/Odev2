@@ -11,6 +11,9 @@
             musteri1.TcNo = "2222222222";
             musteri1.MusteriNo = "12345";
             musteri1.SirketAdi = "?";
+
+            //Gerçek Müşteri - Tüzel Müşteri
+            //SOLID
         }
     }
 }
