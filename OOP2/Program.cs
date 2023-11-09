@@ -23,6 +23,14 @@
 
             //Gerçek Müşteri - Tüzel Müşteri
             //SOLID
+
+            Musteri musteri3 = new GercekMusteri();
+            Musteri musteri4 = new TuzelMusteri();
+
+            MusteriManager musteriManager = new MusteriManager();
+            musteriManager.Ekle(musteri1);
+            musteriManager.Ekle(musteri2);
+
         }
     }
 }
