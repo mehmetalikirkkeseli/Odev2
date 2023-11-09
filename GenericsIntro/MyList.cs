@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace GenericsIntro
 {
-    class MyList
+    class MyList<T>
     {
+        public void Add(string item)
+        {
 
+        }
     }
 }
