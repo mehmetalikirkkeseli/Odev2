@@ -7,10 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Remove="Matematik\**" />
-    <EmbeddedResource Remove="Matematik\**" />
-    <None Remove="Matematik\**" />
-  </ItemGroup>
-
 </Project>
