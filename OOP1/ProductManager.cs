@@ -11,7 +11,7 @@ namespace OOP1
         //encapsulation
         public void Add(Product product)
         {
-
+            product.ProductName = "Kamera";
         }
 
         public void BiseyYap(int sayi)
