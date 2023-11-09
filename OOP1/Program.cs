@@ -17,6 +17,10 @@
             //case sensitive
             ProductManager productManager = new ProductManager();
             productManager.Add(product1);
+
+            int sayi = 100;
+            productManager.BiseyYap(sayi);
+            Console.WriteLine(sayi);
         }
     }
 }
