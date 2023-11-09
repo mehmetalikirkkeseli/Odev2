@@ -19,6 +19,7 @@
             productManager.Add(product1);
             Console.WriteLine(product1.ProductName);
 
+            productManager.Topla2(3, 6);
 
             //int,double,bool... -> değer tip
             //diziler,class,abstract class,interface... -> referans tip
