@@ -23,7 +23,7 @@
             isimler2.Add("İlker");
             Console.WriteLine(isimler2[4]);
             Console.WriteLine(isimler2[0]);
-
+            
         }
     }
 }
