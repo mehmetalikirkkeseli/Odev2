@@ -8,7 +8,8 @@ namespace GenericsIntro
 {
     class MyList<T>
     {
-        public void Add(string item)
+        T[] items; 
+        public void Add(T item)
         {
 
         }

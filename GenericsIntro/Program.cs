@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            MyList isimler = new MyList();
+            MyList<string> isimler = new MyList<string>();
+            isimler.Add("Engin");
             
         }
     }
