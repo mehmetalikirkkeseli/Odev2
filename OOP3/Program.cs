@@ -12,7 +12,7 @@
             ILoggerService fileLoggerService = new FileLoggerService();
 
             BasvuruManager basvuruManager = new BasvuruManager();
-            basvuruManager.BasvuruYap(new EsnafKrediManager(), fileLoggerService);
+            basvuruManager.BasvuruYap(new EsnafKrediManager(), new SmsLoggerService());
 
             List<IKrediManager> krediler = new List<IKrediManager>() {ihtiyacKrediManager, tasitKrediManager };
 
