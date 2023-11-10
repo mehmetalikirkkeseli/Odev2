@@ -13,4 +13,11 @@ namespace OOP3
             Console.WriteLine("Veritabanına loglandı");
         }
     }
+    class FileLoggerService : ILoggerService
+    {
+        public void Log()
+        {
+            Console.WriteLine("Dosyaya loglandı");
+        }
+    }
 }
