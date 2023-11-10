@@ -12,5 +12,10 @@ namespace OOP3
         {
             krediManager.Hesapla();
         }
+
+        public void KrediOnBilgilendirmesiYap(List<IKrediManager> krediler)
+        {
+
+        }
     }
 }

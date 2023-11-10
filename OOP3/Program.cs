@@ -11,6 +11,7 @@
             BasvuruManager basvuruManager = new BasvuruManager();
             basvuruManager.BasvuruYap(konutKrediManager);
 
+
         }
     }
 }
