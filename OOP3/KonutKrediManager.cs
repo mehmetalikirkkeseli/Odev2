@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace OOP3
 {
-    class KreediManager
+    class KonutKrediManager:KreediManager
     {
-        public void Hesapla()
-        {
-            
-        }
+
     }
 }
