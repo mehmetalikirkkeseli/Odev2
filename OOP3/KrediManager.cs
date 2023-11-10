@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace OOP3
 {
-    interface KrediManager
+    interface IKrediManager
     {
         void Hesapla();
+        void BiseyYap();
 
     }
 }

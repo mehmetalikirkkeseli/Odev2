@@ -6,8 +6,16 @@ using System.Threading.Tasks;
 
 namespace OOP3
 {
-    class KonutKrediManager:KrediManager
+    class KonutKrediManager : IKrediManager
     {
+        public void BiseyYap()
+        {
+            throw new NotImplementedException();
+        }
 
+        public void Hesapla()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
