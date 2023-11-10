@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOP3
 {
-    class KonutKrediManager:KrediManager
+    class IhtiyacKrediManager:KrediManager
     {
 
     }
