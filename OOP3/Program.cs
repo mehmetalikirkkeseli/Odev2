@@ -11,7 +11,7 @@
             BasvuruManager basvuruManager = new BasvuruManager();
             //basvuruManager.BasvuruYap(konutKrediManager);
 
-            List<IKrediManager> krediler = new List<IKrediManager>() { };
+            List<IKrediManager> krediler = new List<IKrediManager>() {ihtiyacKrediManager };
 
             basvuruManager.KrediOnBilgilendirmesiYap(krediler);
         }
