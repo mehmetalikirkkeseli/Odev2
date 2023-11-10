@@ -4,13 +4,13 @@
     {
         static void Main(string[] args)
         {
-            IhtiyacKrediManager ihtiyacKrediManager = new IhtiyacKrediManager();
+            IKrediManager ihtiyacKrediManager = new IhtiyacKrediManager();
             ihtiyacKrediManager.Hesapla();
 
-            TasitKrediManager tasitKrediManager = new TasitKrediManager();
+            IKrediManager tasitKrediManager = new TasitKrediManager();
             tasitKrediManager.Hesapla();
 
-            KonutKrediManager konutKrediManager = new KonutKrediManager();
+            IKrediManager konutKrediManager = new KonutKrediManager();
             konutKrediManager.Hesapla();
         }
     }
