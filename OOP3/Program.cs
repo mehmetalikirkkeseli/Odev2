@@ -12,7 +12,7 @@
             ILoggerService fileLoggerService = new FileLoggerService();
 
             BasvuruManager basvuruManager = new BasvuruManager();
-            basvuruManager.BasvuruYap(konutKrediManager, fileLoggerService);
+            basvuruManager.BasvuruYap(tasitKrediManager, fileLoggerService);
 
             List<IKrediManager> krediler = new List<IKrediManager>() {ihtiyacKrediManager, tasitKrediManager };
 
