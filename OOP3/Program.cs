@@ -9,7 +9,7 @@
             IKrediManager konutKrediManager = new KonutKrediManager();
 
             BasvuruManager basvuruManager = new BasvuruManager();
-            basvuruManager.BasvuruYap(tasitKrediManager);
+            basvuruManager.BasvuruYap(konutKrediManager);
 
         }
     }
